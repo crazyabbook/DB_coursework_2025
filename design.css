@@ -1,0 +1,92 @@
+body {
+    background-color: #faf3f0;
+}
+.nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+} 
+.nav li { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+h1 { 
+    text-align: center; 
+    font-size: 60px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+p .profile { 
+    width: 570px; 
+    height: 420px; 
+    border-radius: 5%; 
+    text-align: end; 
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.content { 
+    list-style: none; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left; 
+    font-size: 25px; 
+}
+.content li {
+    margin: 10px;
+}
+#footer {
+    flex: 1;
+    background-color: #836f6f;
+    color: #faf3f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px; 
+    text-align: center; 
+}
+#special {
+    list-style: circle; 
+}
+p .society { 
+    width: 400px; 
+    height: 460px; 
+    border-radius: 5%; 
+    text-align: justify; 
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border-collapse: separate;
+    text-align: inherit;
+    margin-bottom: 50px;
+}
+td, th {
+    border: 1px solid rgba(116, 89, 68, 0.417);
+    padding: 5px;
+}
+button[name="add"] {
+    background-color: #ddedb9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+select {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+label {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
